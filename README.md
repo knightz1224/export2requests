@@ -7,19 +7,19 @@ Usage
 
 Use as addon for mitmproxy command:
 
-```
+```Bash
 mitmproxy -s export2requests.py
 ```
 
 Select a flow, and input the export command:
 
-```
-:export.requests @focus xxx_requests.py
+```vim
+:export.requests @focus example_requests.py
 ```
 
-Open the ```xxx_requests.py``` file:
+Open the ```example_requests.py``` file:
 
-```
+```python
 import requests
 
 headers = {
@@ -31,7 +31,7 @@ headers = {
         "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:87.0) Gecko/20100101 Firefox/87.0"
     }
 
-response = requests.get("https://pypi.org/", headers = headers)
+response = requests.get("https://example.com/", headers = headers)
 
 print(response.text)
 
