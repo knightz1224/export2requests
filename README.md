@@ -11,6 +11,11 @@ Use as addon for mitmproxy command:
 mitmproxy -s export2requests.py
 ```
 
+Select a flow, and input the export command:
+
+```
+:export.requests @focus requests.py
+```
 
 License
 -------
