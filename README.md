@@ -1,6 +1,5 @@
 # export2requests
-This is a [mitmproxy addon] script, it exports request to python script, so you can re-request by using python-requests library.
-[mitmproxy addon]: https://docs.mitmproxy.org/stable/addons-overview/
+This is a [mitmproxy addon](https://docs.mitmproxy.org/stable/addons-overview/) script, it exports request to python script, so you can re-request by using python-requests library.
 
 Usage
 -----
