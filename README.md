@@ -1,4 +1,4 @@
-# export2requests
+# Mitm export extra
 This is a [mitmproxy addon](https://docs.mitmproxy.org/stable/addons-overview/) script, it exports request to python script, so you can re-request by using python-requests library.
 
 Requirement
@@ -13,7 +13,7 @@ Usage
 Use as addon for mitmproxy command:
 
 ```Bash
-mitmproxy -s export2requests.py
+mitm_export_extra
 ```
 
 Select a flow, and input the export command:
