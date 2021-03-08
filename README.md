@@ -4,8 +4,9 @@ This is a [mitmproxy addon](https://docs.mitmproxy.org/stable/addons-overview/) 
 Requirement
 -----
 
-Python 3.8 or above
+Python >= 3.8
 
+Mitmproxy >= 6.0.0
 
 Usage
 -----
